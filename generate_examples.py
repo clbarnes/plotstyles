@@ -1,10 +1,10 @@
 import json
 from nbformat import current as nbf
-import subprocess
 from matplotlib import pyplot as plt
+# import subprocess
 
 template_path = 'templates/template.ipynb'
-output_path = 'generated.ipynb'
+output_path = 'plotstyles.ipynb'
 nb = nbf.new_notebook()
 
 with open(template_path) as f:
